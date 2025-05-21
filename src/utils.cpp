@@ -1,9 +1,12 @@
 #ifndef NMF_UTILS_H // include header only once
 #define NMF_UTILS_H
+#define DOUBLE_EPS DBL_EPSILON
 
 #include <R.h>
 #include <Rdefines.h>
 #include <R_ext/Error.h>
+#include <cmath>   // for sqrt()
+#include <cfloat>  // for DBL_EPSILON
 
 extern "C" {
 
